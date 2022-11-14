@@ -1,0 +1,39 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">Bourse
+   </head>
+   <body>
+      <h3>Cotations des societes de type Banque</h3>
+      <ul>
+         <li> Code Societe : SGMB</li>
+         <li> Nom Societe : Societe General</li>
+      </ul>
+      <h3> Cotations</h3>
+      <table border="2" width="80%">
+         <tr>
+            <th>Num Cotation</th>
+            <th>Date Cotation</th>
+            <th>Val Action</th>
+         </tr>
+         <tr>
+            <td>23</td>
+            <td>2010-01-01</td>
+            <td>650</td>
+         </tr>
+         <tr>
+            <td>24</td>
+            <td>2010-01-02</td>
+            <td>680</td>
+         </tr>
+         <tr>
+            <td colspan="2"> Moyenne des Cotations </td>
+            <td></td>
+         </tr>
+      </table>
+      <ul>
+         <li>Nombre total des societes : 2</li>
+         <li>Nombre de societes de type banque: 1</li>
+         <li>Nombre de societes de type assurance : 1</li>
+      </ul>
+   </body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bourse.xsl"?>
+<!--DOCTYPE bourse SYSTEM "file:/C:/Users/sahar/OneDrive/Bureau/XML%20PRACTICES/bourse/bourse.dtd"-->
+<bourse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/sahar/OneDrive/Bureau/XML%20PRACTICES/bourse/bourse.xsd">
+    <societe type="banque">
+        <codeSociete>SGMB</codeSociete>
+        <nomSociete>Societe General</nomSociete>
+        <dateIntroduction>2000-11-01</dateIntroduction>
+        <cotations>
+            <cotation num="23" dateCotation="2010-01-01" valeurAction="650"/>
+            <cotation num="24" dateCotation="2010-01-02" valeurAction="680"/>
+        </cotations>
+    </societe>
+    <societe type="assurance">
+        <codeSociete>SH</codeSociete>
+        <nomSociete>SAHAM</nomSociete>
+        <dateIntroduction>2009-09-10</dateIntroduction>
+        <cotations>
+            <cotation num="25" dateCotation="2020-10-28" valeurAction="640"/>
+        </cotations>
+    </societe>
+</bourse>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT bourse (societe+) >
+<!ELEMENT societe (codeSociete,nomSociete,dateIntroduction,cotations) >
+<!ELEMENT codeSociete ANY >
+<!ELEMENT nomSociete ANY >
+<!ELEMENT dateIntroduction ANY >
+<!ELEMENT cotations (cotation+) >
+<!ELEMENT cotation EMPTY >
+<!ATTLIST societe 
+          type CDATA #REQUIRED>
+<!ATTLIST cotation 
+           num NMTOKEN #REQUIRED
+           dateCotation CDATA #REQUIRED
+           valeurAction CDATA #REQUIRED>
